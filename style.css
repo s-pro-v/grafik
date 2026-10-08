@@ -109,11 +109,11 @@
       font-family: var(--font-family);
       background-color: var(--body-bg);
       color: var(--text-color);
-      min-height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: stretch;
-      padding: 1rem;
+      align-items: center;
+      padding: 0;
+      margin: 0;
       background-image:
           linear-gradient(to right, var(--color-grid-line) 1px, transparent 1px),
           linear-gradient(to bottom, var(--color-grid-line) 1px, transparent 1px);
